@@ -1,0 +1,9 @@
+{
+  "name": "@kvako/json-merge-patcher",
+  "version": "1.0.0",
+  "exports": "./index.js",
+  "publish": {
+    "include": ["LICENSE", "README.md", "index.js", "index.d.ts", "lib/**/*.js"],
+    "exclude": ["test/"]
+  }
+}
